@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# coding: utf-8
+
+Inputs.create(:tr1 => '1', :tr2 => '0', :tr3 => '0')
+Inputs.create(:tr1 => '0', :tr2 => '1', :tr3 => '0')

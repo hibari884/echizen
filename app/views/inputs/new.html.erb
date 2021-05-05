@@ -1,0 +1,16 @@
+<head>
+<h1>Measuring Values Test</h1><br></br>
+<h3>これからの婚活を進めていく中で重要なデータとなります。</h3>
+<h3>直感的に回答を選択してください。</h3>
+</head>
+
+<body><br>
+  <p>Q.1 恋愛において相手方に好意を抱いた場合、積極的にアプローチしますか？<br><br></p>
+    <%=form_for @umv, url: new_input_url do |f|  %>
+    <label><%= f.radio_button :tr1, "1" %> はい</label>
+    <label><%= f.radio_button :tr1, "0" %> いいえ</label><br>
+    <%= f.submit "登録" %>
+    <%end%>
+</body>
+
+

@@ -1,0 +1,2 @@
+class Inpu < ApplicationRecord
+end

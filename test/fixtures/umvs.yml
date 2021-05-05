@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  usrid: MyString
+  tr1: MyString
+  tr2: MyString
+  tr3: MyString
+  tr4: MyString
+
+two:
+  usrid: MyString
+  tr1: MyString
+  tr2: MyString
+  tr3: MyString
+  tr4: MyString
